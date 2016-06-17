@@ -1,0 +1,116 @@
+/**
+	@Blue	#1a3c7b //A9..
+	@Yellow	#fbe400 //AD..
+*/
+
+
+/***** GENERALS *****/
+
+/* Background Blue */
+#topBar, #topNav	{
+	background: #1a3c7b;
+}
+
+/* Background Yellow */
+#topNav {
+	background: #fbe400;
+}
+
+/* Color White */
+#topBar, #topNav, #topNav > .container,
+#topNav nav.nav-main {
+	color: white;
+}
+#map{
+    height:600px;
+}
+/* Color Blue */
+#topNav ul.nav>li a {
+	color: #1a3c7b;
+    padding: 15px 11px;
+}
+#topNav ul.dropdown-menu a.dropdown-toggle:after{
+    top: 15px;
+}
+/* remove borders */
+#topNav {
+	border: none;
+}
+
+/***** HEADER *****/
+.slogan {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 30px 0 0 30px;
+}
+
+#topNav ul.nav>li {
+	border-left: dashed 1px #1a3c7b;
+}
+#topNav ul.nav>li:last-child {
+	border-right: dashed 1px #1a3c7b;
+}
+
+#topNav ul.nav>li a {
+	font-weight: bold;
+}
+
+#topNav form.search {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#topNav form.search input {
+	margin-bottom: 0;
+}
+
+/***** FOOTER ****/
+#footer {
+	background-color: #1a3c7b;
+	color: white;
+}
+#footer li a {
+	color: whitesmoke;
+}
+#footer li a:hover {
+	color: #fbe400;
+}
+
+/***** INDEX *****/
+/* Top Bar */
+#topNav > .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.box-content.thumbnail  h3 span {
+	background: #1a3c7b;
+	opacity: 0.9;
+}
+
+div.slider {
+}
+
+/***** SHOP *****/
+.shop-section {
+	padding-top: 0;
+}
+.shop-section .container {
+	padding-top: 0px;
+}
+.shop-section .container .white-background {
+	background: white;
+}
+
+/* SIGN IN */
+.signin {
+	padding: 60px 0;
+}
+.signin form {
+	max-width: 330px;
+	margin: 0 auto;
+}
+.signin button {
+	color: #1a3c7b;
+}
